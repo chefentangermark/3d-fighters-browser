@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Fighters - Browser Fighting Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="ui.css">
+</head>
+<body>
+    <div id="app">
+        <canvas id="gameCanvas"></canvas>
+        <div id="ui-overlay">
+            <div id="mainMenu" class="menu active">
+                <h1>3D FIGHTERS</h1>
+                <button onclick="startGame()">PLAY</button>
+                <button onclick="showSettings()">SETTINGS</button>
+            </div>
+            <div id="gameHUD" class="hud hidden">
+                <div class="p1"><span id="p1Name">P1</span><div class="health"><div class="fill" id="p1Health"></div></div></div>
+                <div id="timer">99</div>
+                <div class="p2"><span id="p2Name">P2</span><div class="health"><div class="fill" id="p2Health"></div></div></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
