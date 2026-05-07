@@ -1,0 +1,7 @@
+{
+  "name": "3d-fighters-browser",
+  "version": "1.0.0-alpha",
+  "description": "3D Fighting Game Browser Engine - Like Tekken",
+  "main": "main.js",
+  "license": "MIT"
+}
